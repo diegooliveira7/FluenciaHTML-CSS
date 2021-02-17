@@ -17,13 +17,37 @@
                 text-indet: 150px; sobre indentação do texto
             }*/
 
-            div{
-                font-family: Arial, sans-serif;/*Essa é a forma de definir forntes baseados nas fontes do computado*/
+            /*
+                div{
+                font-family: Arial, sans-serif;/*Essa é a forma de definir forntes baseados nas fontes do computado
                 font-size: 30px;
-                line-height: 60px;/*é o espacamento entre as linhas*/
+                line-height: 60px; é o espacamento entre as linhas
                 color: #FF0000;
                 text-align: center;
 
+            }
+            */
+
+            
+            /*Quando não se coloca estilo nenhum, o navegador já coloca o seu prórpio estilo
+              Só que tem casos que não é interessante ter esses estilos
+              No caso resetar, por isso se usa seletor universal*/
+
+            *{/*Como padrão se usa essas cofigurações para resetar as configurações do navegador*/
+                font-size: 12px;
+                margin: 0;
+                padding: 0;
+            }
+
+            #maca{
+                font-size: 30px;
+                /*Esse id só pode ser usado uma única vez*/
+            }
+
+            .abobora{
+                font-size: 80px;
+                color: cadetblue;
+                /*Esse pode ser usado mais de uma vez*/
             }
         </style>
         <!--Esse bloco abaixo é onde se coloca os códigos html-->
@@ -32,7 +56,7 @@
     <body>
         <!----><!--Ela é a tag pricipal p-->
         <div> 
-            <h1>Titulo 1</h1>
+            <h1 id="maca">Titulo 1</h1>
             <p><strong>Bom dia</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere neque illum corporis 
                 nemo beatae cupiditate impedit est eveniet, nisi rem. Tempore dolore 
                 expedita laudantium tenetur fugiat voluptas labore, culpa beatae!

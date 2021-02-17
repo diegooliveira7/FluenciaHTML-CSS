@@ -1,0 +1,32 @@
+#container{
+
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    border: 2px solid #FF0000;
+    margin: 30px;
+    box-sizing: border-box;/*Ele tira a soma que se faz em cima e deixa os valores como deve ser */
+    /*As próximas configurações é sobre a direção do bloco*/
+    top: 100px;
+    left: 200px;
+    bottom: 0;
+    right: 0;
+    position: relative;/*Com o valor absolute faz referência a que as configutrações de posicionamento iram acontecer indepedete da localização dos outros*/
+}
+
+span{
+    background: #FF0000;
+    display: block;
+}
+
+/*A propriedade display escolhe como o bloco será renderizado
+Você pode ativar o desativar a exibição*/
+
+li{
+    background: #000;
+    color: #FFF;
+    border: 2px solid #CCC;
+    padding: 30px;
+    display: inline-block;
+
+}

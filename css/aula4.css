@@ -1,0 +1,28 @@
+#bloco01, #bloco02, #bloco03{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    font: bold 2em/8 sans-serif;
+    text-align: center;
+    color: #FFF;
+}
+
+#bloco01{
+    background: #EE0000;
+    left:0;
+    top:0;
+    z-index: 1;/*Serve para mostrar a prioridade de apresentação dos elementos*/
+}
+
+#bloco02{
+    background: green;
+    left:30px;
+    top:150px;
+    
+}
+
+#bloco03{
+    background: blue;
+    left:60px;
+    top:300px;
+}

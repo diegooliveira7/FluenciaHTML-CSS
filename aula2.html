@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula2</title>
+
+    <style>
+
+        div h1{/*dessa forma eu indentifico que somente será mudado os h1 que forem ancestrais de div*/
+            font-size: 5em;
+            color: red;
+        }
+
+        /*pseudo classe de ação*/
+        /*Como eu quero que o link esteja antes de eu clicar e como que eu quero que ele esteja depois que eu clicar */
+        a:link{
+            color: orange;
+        }
+        /*Como eu quero depois que clicar*/
+        a:visited{
+            color: #000;
+        }
+
+        h2:hover{/*Sobre passar o mouse por cima de um elementor*/
+            color: yellow;
+        }
+
+        a:active{/**/
+
+
+        }
+
+        a:focus{
+
+
+        }
+
+        /*Pseudas classes de estruturação*/
+        /*O primeiro elemnto vai ser configurado*/
+        li:first-child{
+            font-size: 2em;
+        }
+        /*O próximo também*/
+        li:last-child{
+            font-size: 2em;
+            color: aquamarine;
+
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Bom dia</h1>
+
+    <h4><a href="#">Hoje</a></h4>
+    <div>
+        <p>
+            <h2>Para todos os garotos que já amei</h2>
+            <h1>Cardápio</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quod doloremque odio debitis soluta nulla necessitatibus 
+            animi praesentium non repudiandae corrupti reiciendis at impedit 
+            porro, natus, harum quos sapiente tempore et!
+        </p>
+
+        <ul><!---Essa tag mostra que é uma lista não ordenada-->
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+    </div>
+</body>
+</html>

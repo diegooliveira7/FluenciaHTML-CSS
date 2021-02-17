@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="demo">!</p>
+    <script>
+        //1a)
+        var carName = "Volvo";
+        document.getElementById("demo").innerHTML = carName;
+        
+        //1b)Crie uma variável chamada de número, atribua o valor 50 a ele e visualize-o.
+        var numero = 50;
+        document.getElementById("demo").innerHTML = numero;
+
+        //1c)Exibir a soma de 5 + 10, usando duas variáveis x e y.
+        var x = 5;
+        var y = 10;
+        document.getElementById("demo").innerHTML = x + y;
+
+        //1d)Crie uma terceira variável chamada z, atribua x + y a ela e mostre-a. 
+        var z = x + y;
+        document.getElementById("demo").innerHTML = z;
+
+        //1e)
+        var firstName = "John", lastName = "Doe", age = 35;
+        document.getElementById("demo").innerHTML = firstName + " " + lastName + " is " + age;
+    
+        //1h) Use a instrução if para imprimir algum texto se 5 for maior que 2. 
+        if (5 > 2) {
+            document.getElementById("demo").innerHTML = "OK!";
+        }
+
+        //1i) Escreva uma instrução if com a seguinte condição: 10 é maior que 5. Se a condição  for verdadeira, exiba "Eu fiz isso!".
+        if (10 > 5) {
+            document.getElementById("demo").innerHTML = "Eu fiz isso!";
+        }
+
+        //1j) Escreva uma instrução if / else com a seguinte condição: Se a idade da variável for  maior que 18, a saída “Muito velho", caso contrário, a saída "Muito jovem".
+        function myFunction() {
+            var idade = 20; 
+            var greeting = "";
+            if (idade > 18) {
+                greeting = "Muito velho!";
+            } else {
+                greeting = "Muito jovem!";
+            }
+            document.getElementById("demo").innerHTML = greeting;
+        }
+
+        myFunction();
+    
+    </script>
+</body>
+</html>
