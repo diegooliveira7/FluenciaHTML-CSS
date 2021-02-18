@@ -1,0 +1,36 @@
+#bloco01, #bloco02, #bloco03, #bloco04{
+    background: #E6D4C3;
+    width: 220px;
+    height: 300px;
+    font:bold 1em sans-serif;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    margin: 0 0 60px 15px;
+
+}
+
+p{
+    color: #000;
+
+}
+
+/*Overflow ele dá a liberdade de manipulação do texto que sobre em um bloco*/
+
+#bloco01{
+    overflow: visible;/*Elel deixa ultrapassar*/
+}
+
+#bloco02{
+    overflow: scroll;/*Ele coloca uma barra independete se precisa ou n dá barra de rolagem*/
+    /*overflow-y: ; é para configurar o scroll y*/
+    /*overflow-x: ; é para configurar o scroll x*/
+}
+
+#bloco03{
+    overflow: hidden;/*Ele não mostra*/
+}
+
+#bloco04{
+    overflow: auto;/*Ele coloca se precisar*/
+}

@@ -1,0 +1,30 @@
+h1{
+    font-size: 5em;
+    color: #008800;
+    font-family: Arial;
+    text-shadow: 4px 5px 10px #000;/*Deslocamente esquerda/direita cima/baixo foco*/
+    /*Sobra no texto*/
+}
+
+#bloco03{
+    background: #004400;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#bloco04{
+    background: #0022FF;
+    /*Regras*/
+    max-width: 500px;/*Específica o máximo de largura - E o texto não acompanha pq está limitado*/
+    max-height: 200px;/*Específica o máximo da altura*/
+    /*Como também pode ser estipulado o mínimo*/
+    min-width: 200px;/*O mínimo que a largura pode ir*/
+    min-height: 100px;
+    font: bold 1.4em sans-serif;
+    color: #FFF;
+    margin-bottom: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+}
