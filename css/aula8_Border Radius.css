@@ -1,0 +1,18 @@
+/*Arredondar bordas no css*/
+
+#bloco01{
+    background: #0022FF;
+    width: 500px;
+    font: bold 1.4em sans-serif;
+    color: #FFF;
+    margin-bottom: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 50px;/*Ele areedonda tds as bordas*/
+    /*
+    border-top-left-radius: ;
+    border-top-right-radius: ;
+    border-bottom-left-radius: ;
+    border-bottom-right-radius: ;
+    */
+}
